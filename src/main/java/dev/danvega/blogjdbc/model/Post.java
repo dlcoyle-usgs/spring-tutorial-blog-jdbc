@@ -26,6 +26,10 @@ public final class Post {
         this.publishedOn = LocalDateTime.now();
     }
 
+    /**
+     * Answers the ID.
+     * @return the id property of the object
+     */
     public Integer getId() {
         return id;
     }
